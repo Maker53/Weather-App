@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -15,14 +15,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Weather_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgrounds" translatesAutoresizingMaskIntoConstraints="NO" id="wKm-3u-ivu" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EEZ-sq-JBr">
-                                <rect key="frame" x="20" y="19.5" width="335" height="100.5"/>
+                                <rect key="frame" x="20" y="64" width="335" height="100"/>
                                 <color key="tintColor" name="ThemeColors"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="hPV-W0-NLi"/>
@@ -31,16 +31,16 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="twP-PI-HPT">
-                                <rect key="frame" x="50" y="160" width="275" height="122.5"/>
+                                <rect key="frame" x="50" y="204.00000000000003" width="275" height="122.33333333333334"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRa-EW-kqW">
-                                        <rect key="frame" x="111.5" y="0.0" width="52" height="36"/>
+                                        <rect key="frame" x="111.66666666666666" y="0.0" width="52" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" name="ThemeColors"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="S0s-hR-N8n">
-                                        <rect key="frame" x="110" y="57" width="55.5" height="24"/>
+                                        <rect key="frame" x="109.99999999999999" y="57" width="55.333333333333329" height="24"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hw-Ha-jbh">
                                                 <rect key="frame" x="0.0" y="0.0" width="29" height="24"/>
@@ -49,7 +49,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cº" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBE-Pe-sIQ">
-                                                <rect key="frame" x="34" y="0.0" width="21.5" height="24"/>
+                                                <rect key="frame" x="34" y="0.0" width="21.333333333333329" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" name="ThemeColors"/>
                                                 <nil key="highlightedColor"/>
@@ -57,7 +57,7 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feels like: -15 Cº" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udx-2m-Ovg">
-                                        <rect key="frame" x="74" y="102" width="127" height="20.5"/>
+                                        <rect key="frame" x="74" y="102" width="127" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" name="ThemeColors"/>
                                         <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                                 <color key="tintColor" name="ThemeColors"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f5-vC-eTM">
-                                <rect key="frame" x="206.5" y="626" width="158.5" height="31"/>
+                                <rect key="frame" x="206.33333333333337" y="737" width="158.66666666666663" height="31"/>
                                 <color key="tintColor" name="ThemeColors"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" imagePlacement="leading" title=" Saint-Petersburg"/>
@@ -78,7 +78,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="wKm-3u-ivu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Cmu-lz-eAZ"/>
+                            <constraint firstItem="wKm-3u-ivu" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="Cmu-lz-eAZ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2f5-vC-eTM" secondAttribute="trailing" constant="10" id="EsN-bV-8ij"/>
                             <constraint firstItem="EEZ-sq-JBr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FCt-69-z04"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="twP-PI-HPT" secondAttribute="trailing" constant="50" id="W8O-kc-gtg"/>
@@ -88,7 +88,7 @@
                             <constraint firstItem="twP-PI-HPT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bJ5-cV-JA9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EEZ-sq-JBr" secondAttribute="trailing" constant="20" id="bsn-SQ-QL4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2f5-vC-eTM" secondAttribute="bottom" constant="10" id="g3x-vA-hpn"/>
-                            <constraint firstItem="wKm-3u-ivu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oGO-Sz-J6v"/>
+                            <constraint firstItem="wKm-3u-ivu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oGO-Sz-J6v"/>
                             <constraint firstItem="2f5-vC-eTM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oz3-dk-XMB"/>
                             <constraint firstItem="twP-PI-HPT" firstAttribute="top" secondItem="EEZ-sq-JBr" secondAttribute="bottom" constant="40" id="q3m-ba-rOw"/>
                         </constraints>
