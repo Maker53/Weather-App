@@ -80,6 +80,7 @@
                             <constraint firstItem="twP-PI-HPT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bJ5-cV-JA9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EEZ-sq-JBr" secondAttribute="trailing" constant="20" id="bsn-SQ-QL4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2f5-vC-eTM" secondAttribute="bottom" constant="10" id="g3x-vA-hpn"/>
+                            <constraint firstItem="2f5-vC-eTM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oz3-dk-XMB"/>
                             <constraint firstItem="twP-PI-HPT" firstAttribute="top" secondItem="EEZ-sq-JBr" secondAttribute="bottom" constant="40" id="q3m-ba-rOw"/>
                         </constraints>
                     </view>
