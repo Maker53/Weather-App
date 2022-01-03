@@ -14,12 +14,18 @@ class MainViewController: UIViewController {
     @IBOutlet var tempLabel: UILabel!
     @IBOutlet var feelsLikeTempLabel: UILabel!
     
+    let networkWeatherManager = NetworkWeatherManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        networkWeatherManager.fetchCurrentWeather(forCity: "London")
     }
 
     @IBAction func searchButtonPressed(_ sender: Any) {
+        presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) { city in
+            self.networkWeatherManager.fetchCurrentWeather(forCity: city)
+        }
     }
     
 }
