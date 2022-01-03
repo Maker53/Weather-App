@@ -110,7 +110,7 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="sun.max.fill" catalog="system" width="128" height="124"/>
         <namedColor name="ThemeColors">
-            <color red="1" green="0.95159840948334129" blue="0.95538426263882181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.95200002193450928" blue="0.95499998331069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
