@@ -14,11 +14,14 @@ class MainViewController: UIViewController {
     @IBOutlet var tempLabel: UILabel!
     @IBOutlet var feelsLikeTempLabel: UILabel!
     
-    let networkWeatherManager = NetworkWeatherManager()
+    var networkWeatherManager = NetworkWeatherManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        networkWeatherManager.onCompletion = { currentWeather in
+            print(currentWeather.cityName)
+        }
         networkWeatherManager.fetchCurrentWeather(forCity: "London")
     }
 
